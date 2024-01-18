@@ -1,6 +1,6 @@
 body { 
     font-family: Roboto, sans-serif;
-    border-bottom: #E7E9FC;
+    color: #434455;
     background: #FFF;
 }
 
@@ -12,7 +12,7 @@ ol {
 a {
     text-decoration: none;
 }
-
+/* ======HEADER====== */
 .header {}
 
 .header-nav {}
@@ -64,10 +64,15 @@ a {
 .address-contacts:focus {
     color: #404BBF;
 }
+/* ============= */
 
+
+/* =====Title===== */
 .main {}
 
-.section-main {}
+.section-main {
+    background-color: #2E2F42; 
+}
 
 .title {
     color: #FFF;
@@ -77,18 +82,24 @@ a {
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
+/* ============ */
 
+/* ======Button===== */
 .button {
-    border-radius: 4px;
-    background: var(--IRIS, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color:  #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: 0.04;
+    cursor: pointer;  
 }
 .button:hover,
 .button:focus {
-    color: #404BBF;
+    color: #404BBF;  
 }
+/* ================= */
 
-
+/* =========Section one======= */
 .section-nav {}
 
 .section-subject {}
@@ -111,8 +122,11 @@ a {
     font-weight: 400;
     line-height: 1.50;
     letter-spacing: 0.02em;
-
 }
+/* ============ */
+
+
+/* ======Section two======= */
 
 .section-our-team {
     background: #F4F4FD;
@@ -120,10 +134,11 @@ a {
 
 .section-our-team-heading {
     color: #2E2F42;
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -156,7 +171,9 @@ a {
     line-height: 1.50;
     letter-spacing: 0.02em;
 }
+/* =============== */
 
+/* =========Section three======== */
 .section-our-portfolio {
     background: #FFF;
 }
@@ -178,7 +195,8 @@ a {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 0.02;
+    line-height: 1.2;
+    letter-spacing: 0.02em
 }
 
 .text-portfolio {
@@ -186,9 +204,11 @@ a {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.50;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
+/* ================ */
 
+/* ===========Footer========== */
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
 }
@@ -212,10 +232,9 @@ a {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.50;
-    letter-spacing: 0.02px;
+    letter-spacing: 0.02em;
 }
-
-
+/* =============== */
 
 
 
