@@ -1,47 +1,224 @@
-body {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+body { 
+    font-family: Roboto, sans-serif;
     border-bottom: #E7E9FC;
     background: #FFF;
 }
 
-ul {
-    list-style-type: none;
+ul,
+ol {
+    list-style: none;
 }
 
 a {
     text-decoration: none;
 }
-.header {
-        display: flex;
-        width: 1440px;
-        height: 72px;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-}
-.header-navigation {
-        display: inline-flex;
-        align-items: flex-start;
-        gap: 40px;
-}
 
-.header-logo-web {
+.header {}
+
+.header-nav {}
+
+.logo-web  {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.33em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-        
-.header-logo-studio{
+
+.logo-studio {
     color: #2E2F42;
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.16;
-        letter-spacing: 0.33em;
-        text-transform: uppercase;
 }
+
+.header-menu-list {}
+
+.header-menu-item {}
+
+.header-menu-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404BBF;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-contacts {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-contacts:hover,
+.address-contacts:focus {
+    color: #404BBF;
+}
+
+.main {}
+
+.section-main {}
+
+.title {
+    color: #FFF;
+    background:  #2E2F42;
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.button {
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.button:hover,
+.button:focus {
+    color: #404BBF;
+}
+
+
+.section-nav {}
+
+.section-subject {}
+
+.section-main-list {}
+
+.section-main-item {}
+
+.section-main-subtitle {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+}
+
+.section-main-text {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+
+}
+
+.section-our-team {
+    background: #F4F4FD;
+}
+
+.section-our-team-heading {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02;
+    text-transform: capitalize;
+}
+
+.section-team-list {}
+
+.section-team-item {
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.img-gallery {
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.name {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+}
+
+.name-content {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+.section-our-portfolio {
+    background: #FFF;
+}
+
+.section-portfolio-heading {
+    border: #E7E9FC;
+    background: #FFF;
+}
+
+.section-portfolio-list {}
+
+.section-portfolio-item {}
+
+.img-portfolio {
+    background: lightgray -25.026px 0px / 125% 100% no-repeat;
+}
+
+.name-portfolio {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 0.02;
+}
+
+.text-portfolio {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.02;
+}
+
+.footer {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.footer-logo-web {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-logo-studio {
+    color: #F4F4FD;
+}
+
+.fotter-text {
+    color: var(--CLOUD, #F4F4FD);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.02px;
+}
+
+
+
+
+
+    
+
+        
