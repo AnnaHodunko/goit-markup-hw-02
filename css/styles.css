@@ -87,15 +87,16 @@ a {
 /* ======Button===== */
 .button {
     color:  #FFF;
+    background-color: #4D5AE5;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.50;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     cursor: pointer;  
 }
 .button:hover,
 .button:focus {
-    color: #404BBF;  
+    background-color: #404BBF;
 }
 /* ================= */
 
@@ -145,15 +146,11 @@ a {
 .section-team-list {}
 
 .section-team-item {
-    border-radius: 0px 0px 4px 4px;
     background: #FFF;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .img-gallery {
-    border-radius: 0px 0px 4px 4px;
     background: #FFF;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .name {
@@ -188,7 +185,7 @@ a {
 .section-portfolio-item {}
 
 .img-portfolio {
-    background: lightgray -25.026px 0px / 125% 100% no-repeat;
+    background: #FFF;
 }
 
 .name-portfolio {
@@ -210,7 +207,7 @@ a {
 
 /* ===========Footer========== */
 .footer {
-    background: var(--NAVY-BLUE, #2E2F42);
+    background: #2E2F42;
 }
 
 .footer-logo-web {
@@ -228,7 +225,7 @@ a {
 }
 
 .fotter-text {
-    color: var(--CLOUD, #F4F4FD);
+    color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.50;
